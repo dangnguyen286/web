@@ -1,0 +1,223 @@
+*{
+	margin:0;
+	padding:0;	
+	
+	
+}
+#wrapper{
+	max-width:1200px;
+	margin:0 auto; 
+	background-color:#192536;
+	
+	
+}
+header{
+	width:100%;
+	position:relative;	
+	background-color:#21324a;
+	line-height:60px;
+}
+header .menu-top{
+	position:absolute;
+	top:0;
+	right:0;
+	margin-right:10px;
+	vertical-align:central;	
+	background-color:#21324a;
+	
+}
+header .menu-top a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	background-color:#21324a;
+}
+header .menu-top a:hover{
+	color:#29b385;
+}
+header input{
+	position:absolute;
+	left:25%;
+	width:400px;
+	line-height:35px;
+	border-radius:5px;
+	margin-top:12.5px;
+	border:none;
+	background-color:white;
+}
+header .icon{
+	position:absolute;	
+	left:56%;
+	top:28%;
+}
+/*nav*/
+
+nav{
+	width:100%;
+	line-height:40px;
+	background-color:#21324a;
+	border:solid 1px #192536;
+	box-sizing:border-box;	
+}
+nav ul li{
+	
+	display:inline-block;	
+}
+nav ul li a{
+	text-decoration:none;
+	padding:0 15px;
+	color:#6a8385;	
+}
+nav ul li a:hover{
+	color:#29b385;
+}
+
+article{
+	width:70%;
+	float:left;	
+	background-color:#192536;
+	position:relative;
+	
+}
+
+article h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:white;
+	margin-top:30px;
+}
+article .cn{
+	position:relative;	
+	margin-top:30px;
+	margin-left:30px;
+}
+label{
+			display: inline-block;
+			width: 150px;
+			color:white;
+			font-family:Arial, Helvetica, sans-serif;
+			font-weight:bold;
+		}
+
+form{
+	margin-top:30px;
+	margin-left:150px;	
+	position:relative;
+	
+}
+input{
+	line-height:25px;
+	min-width:250px;
+}
+form div{
+	margin-top:30px;
+		
+}
+form a{
+	text-decoration:none;
+	color:white;
+}
+form a:hover{	
+	text-decoration:underline;
+}
+form .login{
+	position:absolute;
+	left:22.5%;
+	
+}
+form .login>#cc{
+	width:110px;
+	line-height:35px;	
+	background-color:#337ab7;
+	border:none;
+	color:white;
+	margin-right:28px;
+}
+
+form .login>#huy{
+	width:110px;
+	line-height:35px;	
+	background-color:#ecc800;
+	border:none;
+	color:white;
+}
+form .login>#cc:hover{
+	background-color:#1b5688;
+}
+form .login>#huy:hover{
+	background-color:#c8aa06;
+}
+aside{
+	margin-top:15px;
+	width:28%;
+	float:left;	
+	margin-left:2%;
+	background-color:#192536;
+	
+}
+aside h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:white;
+	margin-top:30px;	
+	
+}
+aside h2>a{
+	text-decoration:none;
+	color:white;	
+}
+aside .box{
+	margin-top:31.8px;
+	position:relative;	
+	min-height:40px;
+	background-color:#192536;
+	
+	
+	
+}
+aside .box span{
+	position:absolute;
+	left:0px;	
+	color:white;
+	font-weight:bold;
+	font-family:Arial, Tahoma, sans-serif;
+	font-size:1.2em;
+	top:60%;
+	
+}
+aside .box h2 a{
+	text-decoration:none;
+	color:white;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	top:0;
+	left:37%;	
+}
+aside .box>a{
+	text-decoration:none;
+	color:#576a76;	
+	position:absolute;
+	top:30%;
+	left:37%;
+}
+aside h2 a:hover{
+	color:#29b385;
+}
+aside a:hover{
+	color:#29b385;
+}
+.clear{
+	clear:both;
+}
+footer{
+	background-color:#21324a;
+	line-height:80px;
+	color:white;
+	text-align:center;
+		
+}
+
+
